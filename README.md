@@ -1,4 +1,13 @@
-[# Navigation
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░<br>
+░░███╗░░░██╗███████╗████████╗░░░░░░██████╗░██████╗░░██████╗░░░<br>
+░░████╗░░██║██╔════╝╚══██╔══╝░░░░░░╚════██╗╚════██╗██╔═████╗░░<br>
+░░██╔██╗░██║█████╗░░░░░██║░░░█████╗░█████╔╝░█████╔╝██║██╔██║░░<br>
+░░██║╚██╗██║██╔══╝░░░░░██║░░░╚════╝░╚═══██╗░╚═══██╗████╔╝██║░░<br>
+░░██║░╚████║███████╗░░░██║░░░░░░░░░██████╔╝██████╔╝╚██████╔╝░░<br>
+░░╚═╝░░╚═══╝╚══════╝░░░╚═╝░░░░░░░░░╚═════╝░╚═════╝░░╚═════╝░░░<br>
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░                                                         
+
+# Navigation
 * [Course Overview](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#course-overview)
     * [Course Description](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#course-description)
     * [Topic Coverage](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#topic-coverage)
@@ -75,4 +84,3 @@ This course examines the basic principles and methodologies used in the design o
 <p align="center";>
 <a href="#"><img alt="Static Badge" src="https://img.shields.io/badge/Back%20to%20Top%20-%20Back%20to%20Top?style=flat&color=%23555"></a>
 </p>
-](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki)
