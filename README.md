@@ -19,6 +19,12 @@
             * [Lab 01-3 - Packet Tracer Review-Class Lab](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#lab-01-3---packet-tracer-review-class-lab)
         * [Assignments:](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#assignments)
             * [Assignment 01-1 - IP Addressing Assignment](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#assignment-01-1---ip-addressing-assignment)
+    * [Week 2:](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#week-2)
+        * [Labs:](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#labs-1)
+            * [Lab 02-1 - Subnet Design](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#lab-02-1---subnet-design)
+        * [Assignments:](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#assignments-1)
+            * [Subnetting Activity](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#subnetting-activity)
+            * [Subnetting Homework](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#subnetting-homework)
 
 # Course Overview
 ### Course Description
@@ -80,7 +86,7 @@ This course examines the basic principles and methodologies for designing local 
 > * Analyze details of an HTTP packet.
 
 ### Assignments:
-* #### [Assignment 01-1 - IP Addressing Assignment](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Assignment-1%E2%80%901-%E2%80%90-IP-Addressing-Assignment)
+* #### [Assignment 01-1 - IP Addressing Assignment](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Assignment-01%E2%80%901-%E2%80%90-IP-Addressing-Assignment)
 > **Overview:**
 >
 > In this [assignment](https://github.com/user-attachments/assets/24181cf9-816c-4ebd-8855-7ff80d998502), I reviewed and got more practice with IP addressing, covering several basic topics touched on by previous NET classes.
@@ -94,6 +100,49 @@ This course examines the basic principles and methodologies for designing local 
 > * Collecting various network information from our local network.
 > * Looking into recent news regarding IPv6 adoption.
 
+## Week 2
+
+#### [Lecture - Subnetting, VLANs, & Cisco Commands](https://github.com/user-attachments/files/16840065/NET-330-Week2-SubnettingVLANsCisco.pptx.pdf)
+
+#### [Lecture - Subnetting In Detail](https://github.com/user-attachments/files/16840078/NET-330-Week2-SubnettingDetailed.pptx.pdf)
+
+### Labs:
+
+* #### [Lab 02-1 - Subnet Design](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Lab-02%E2%80%901-%E2%80%90-Subnet-Design)
+> **Overview:**
+>
+> In this [lab](https://github.com/user-attachments/assets/30fb6c60-8e09-4553-bd18-8f28e91b4c3b), I built a small network design for a school in Packet Tracer to get some practice subnetting and using VLANs.
+>
+> **Objectives:**
+>
+> * Building and completing an IP table to fit requirements.
+> * Setting up VLANs across various switches
+> * Configuring PCs with IPv4 information
+> * Using CLI to:
+>     * Configure interfaces VLANs
+>     * Enabling routing on a multi-layer switch
+
+### Assignments:
+* #### [Subnetting Activity](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Subnetting-Activity)
+> **Overview:**
+>
+> In this [assignment](https://github.com/user-attachments/assets/5d6a8fd0-7b5c-417a-8184-9c604177130a), I reviewed subnetting by completing some IP tables.
+>
+> **Objectives:**
+> * Determine the most efficient subnet mask to use.
+> * Calculate and complete IP tables.
+
+* #### Subnetting Homework
+> **Overview:**
+>
+> In this [assignment](https://github.com/user-attachments/assets/22c79d3f-1bf8-4050-80aa-dded338e10c5), I did some research on the benefits of subnetting,  gained more experience putting together subnetting IP tables, and answered various other questions about subnetting.
+>
+> **Objectives:**
+>
+> * Researching the benefits of subnetting
+> * Completing subnetting IP tables
+> * Determining valid IP addresses
+> * Determining if a router is required for two IP addresses to communicate based on their IP and subnet mask
 <!--Back to Top button-->
 <p align="center";>
 <a href="#"><img alt="Static Badge" src="https://img.shields.io/badge/Back%20to%20Top%20-%20Back%20to%20Top?style=flat&color=%23555"></a>
