@@ -25,6 +25,17 @@
         * [Assignments:](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#assignments-1)
             * [Subnetting Activity](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#subnetting-activity)
             * [Subnetting Homework](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#subnetting-homework)
+            * [Reading Quiz ‐ 10.10 ‐ DHCP](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#reading-quiz--1010--dhcp)
+    * [Week 3:](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#week-3)
+        * [Labs:](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#labs-2)
+            * [Lab 03-1 - Simple DHCP Relay Hardware Lab](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#lab-03-1---simple-dhcp-relay-hardware-lab)
+            * [Lab 03-2 - Lab Prep](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#lab-03-2---lab-prep)
+            * [Lab 03-3 - DHCP Server in Packet Tracer](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#lab-03-3---dhcp-server-in-packet-tracer)
+    * [Week 4](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#week-4)
+        * [Labs:](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#labs-3)
+            * [Lab 4‐1 ‐ Small Enterprise](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#lab-41--small-enterprise)
+        * [Assignments:](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#assignments-2)
+            * [Reading Quiz ‐ 2.1.1‐2.1.4 ‐ DNS](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#reading-quiz--211214--dns)
 
 # Course Overview
 ### Course Description
@@ -132,7 +143,7 @@ This course examines the basic principles and methodologies for designing local 
 > * Determine the most efficient subnet mask to use.
 > * Calculate and complete IP tables.
 
-* #### Subnetting Homework
+* #### [Subnetting Homework](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Subnetting-Homework)
 > **Overview:**
 >
 > In this [assignment](https://github.com/user-attachments/assets/22c79d3f-1bf8-4050-80aa-dded338e10c5), I did some research on the benefits of subnetting,  gained more experience putting together subnetting IP tables, and answered various other questions about subnetting.
@@ -143,6 +154,66 @@ This course examines the basic principles and methodologies for designing local 
 > * Completing subnetting IP tables
 > * Determining valid IP addresses
 > * Determining if a router is required for two IP addresses to communicate based on their IP and subnet mask
+
+* #### [Reading Quiz ‐ 10.10 ‐ DHCP](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Reading-Quiz-%E2%80%90-10.10-%E2%80%90-DHCP)
+> **Overview:**
+>
+> In this [assignment](https://github.com/user-attachments/assets/a20360e9-5612-496d-86c8-3c4e3614fb9c), I took a quiz based on section 10.10 of Introduction to Computer Networks and Cybersecurity which covers the topic of DHCP.
+>
+> **Objectives:**
+> * Reviewing:
+>     * The DHCP process
+>     * Acronym used to remember the DHCP order of packets
+>     * Definition of a Relay Agent
+
+## Week 3
+#### [Lecture - DHCP](https://github.com/user-attachments/files/16934226/NET-330-Mod3-DHCP.Notes.pdf)
+### Labs:
+* #### [Lab 03-1 - Simple DHCP Relay Hardware Lab](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Lab-03%E2%80%901-%E2%80%90-Simple-DHCP-Relay-Hardware-Lab)
+> **Overview:**
+>
+>In this [lab](https://github.com/user-attachments/assets/f03473b4-2040-4217-95e1-7c12fce3937b), we did some basic hands-on review by hooking up a CNCS router to two switches. We then connected a Kali VM to each of these switches and configured the router and VMs so that each of the VMs would be able to ping one another.
+>
+> **Objectives:**
+>
+> * Connect gear properly.
+> * Configure the CNCS router.
+> * Boot into Kali off of USB sticks.
+> * Configure each Kali VM.
+> * Successfully ping each VM.
+
+* #### [Lab 03-2 - Lab Prep](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Lab-03%E2%80%902-%E2%80%90-Lab-Prep)
+> **Overview:**
+> For this [lab](https://github.com/user-attachments/assets/78d17ffc-954e-4d3a-b63c-8e371f0cc718), we made some brief adjustments to [Lab 02-1](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Lab-02%E2%80%901-%E2%80%90-Subnet-Design) to prepare the file for [Lab 03-3](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Lab-03%E2%80%903-%E2%80%90-DHCP-Server-in-Packet-Tracer), most notably adding and configuring our routers to set up a DHCP server.
+>
+> **Objectives:**
+> * Configuring a server that will serve as our DHCP server.
+> * Adjusting the East-Core-Switch to prepare for setting up a DHCP server.
+
+* #### [Lab 03-3 - DHCP Server in Packet Tracer](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Lab-03%E2%80%903-%E2%80%90-DHCP-Server-in-Packet-Tracer)
+> **Overview:**
+> In this [lab](https://github.com/user-attachments/assets/64eda94d-3d0d-4598-b797-984cf10b2568), I continued building from [Lab 03-2](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Lab-03%E2%80%902-%E2%80%90-Lab-Prep), this time enabling DHCP and setting up IP helper addresses so that all PCs on the network could receive IP addresses through DHCP.
+>
+> **Objectives:**
+> * Configuring a DHCP server with pools
+> * Setting IP helper addresses
+> * Setting PCs to receive IPs through DHCP
+
+## Week 4
+#### [Lecture - Campus and Enterprise: Network Design Layers](https://github.com/user-attachments/files/17017020/NET-330.Week-4.Hierarchical-Model-Notes-1.pdf)
+
+### Labs:
+* #### [Lab 4‐1 ‐ Small Enterprise](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Lab-4%E2%80%901-%E2%80%90-Small-Enterprise)
+> **Overview:**
+>
+> **Objectives:**
+### Assignments:
+* #### [Reading Quiz ‐ 2.1.1‐2.1.4 ‐ DNS](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Reading-Quiz-%E2%80%90-2.1.1%E2%80%902.1.4-%E2%80%90-DNS)
+> **Overview:**
+>
+> **Objectives:**
+
+
 <!--Back to Top button-->
 <p align="center";>
 <a href="#"><img alt="Static Badge" src="https://img.shields.io/badge/Back%20to%20Top%20-%20Back%20to%20Top?style=flat&color=%23555"></a>
