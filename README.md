@@ -31,11 +31,15 @@
             * [Lab 03-1 - Simple DHCP Relay Hardware Lab](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#lab-03-1---simple-dhcp-relay-hardware-lab)
             * [Lab 03-2 - Lab Prep](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#lab-03-2---lab-prep)
             * [Lab 03-3 - DHCP Server in Packet Tracer](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#lab-03-3---dhcp-server-in-packet-tracer)
-    * [Week 4](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#week-4)
+    * [Week 4:](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#week-4)
         * [Labs:](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#labs-3)
-            * [Lab 4‐1 ‐ Small Enterprise](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#lab-41--small-enterprise)
+            * [Lab 04‐1 ‐ Small Enterprise](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#lab-041--small-enterprise)
         * [Assignments:](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#assignments-2)
+            * [Assignment 04‐1 ‐ DNS Security Assignment](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#assignment-041--dns-security-assignment)
             * [Reading Quiz ‐ 2.1.1‐2.1.4 ‐ DNS](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#reading-quiz--211214--dns)
+    * [Week 5:](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#week-5)
+        * [Labs:](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#labs-4)
+            * [Lab 05‐1 ‐ Small Enterprise](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#lab-05-01---small-enterprise)
 
 # Course Overview
 ### Course Description
@@ -184,7 +188,8 @@ This course examines the basic principles and methodologies for designing local 
 
 * #### [Lab 03-2 - Lab Prep](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Lab-03%E2%80%902-%E2%80%90-Lab-Prep)
 > **Overview:**
-> For this [lab](https://github.com/user-attachments/assets/78d17ffc-954e-4d3a-b63c-8e371f0cc718), we made some brief adjustments to [Lab 02-1](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Lab-02%E2%80%901-%E2%80%90-Subnet-Design) to prepare the file for [Lab 03-3](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Lab-03%E2%80%903-%E2%80%90-DHCP-Server-in-Packet-Tracer), most notably adding and configuring our routers to set up a DHCP server.
+>
+> In this [lab](https://github.com/user-attachments/assets/78d17ffc-954e-4d3a-b63c-8e371f0cc718), we made some brief adjustments to [Lab 02-1](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Lab-02%E2%80%901-%E2%80%90-Subnet-Design) to prepare the file for [Lab 03-3](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Lab-03%E2%80%903-%E2%80%90-DHCP-Server-in-Packet-Tracer), most notably adding and configuring our routers to set up a DHCP server.
 >
 > **Objectives:**
 > * Configuring a server that will serve as our DHCP server.
@@ -203,16 +208,53 @@ This course examines the basic principles and methodologies for designing local 
 #### [Lecture - Campus and Enterprise: Network Design Layers](https://github.com/user-attachments/files/17017020/NET-330.Week-4.Hierarchical-Model-Notes-1.pdf)
 
 ### Labs:
-* #### [Lab 4‐1 ‐ Small Enterprise](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Lab-4%E2%80%901-%E2%80%90-Small-Enterprise)
+* #### [Lab 04‐1 ‐ Small Enterprise](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Lab-04%E2%80%901-%E2%80%90-Small-Enterprise)
 > **Overview:**
 >
+> In this [lab](https://github.com/user-attachments/assets/c5325796-5c52-496e-b30a-df3d8fc6471b), we got some more hands-on experience in building a network that would serve as a mock distribution area.
+>
 > **Objectives:**
+> * Configuring switches:
+>     * Creating VLANs
+>     * Assigning port access types
+>     * Assigning VLANs to ports
+> * Resetting the configuration on a switch
+> * Resetting a password on a switch
+
 ### Assignments:
+* #### [Assignment 04‐1 ‐ DNS Security Assignment](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Assignment-04%E2%80%901-%E2%80%90-DNS-Security-Assignment)
+> **Overview:**
+> In this [assignment](https://github.com/user-attachments/assets/26b6be2f-51b1-45ca-b154-619ab0ea63e6), I did some research into DNS, answering various questions about it. 
+>
+> **Objectives:**
+> * Know the difference between recursive and iterative DNS
+> * Researching vulnerabilities caused by enabling recursive DNS
+> * Describing how recursions should be set up inside an organization
+> * Benefits of DNS views
+> * Research IPAM and why organizations are moving in that direction for managing DHCP and DNS
+
+
 * #### [Reading Quiz ‐ 2.1.1‐2.1.4 ‐ DNS](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Reading-Quiz-%E2%80%90-2.1.1%E2%80%902.1.4-%E2%80%90-DNS)
 > **Overview:**
+> In this [assignment](https://github.com/user-attachments/assets/fc30c0c7-c798-43a1-b0b1-40c2ab399cd3), I took a quiz based on chapter 2, [sections 2.1.1-2.1.4](https://github.com/user-attachments/assets/e2753dbc-9637-42fa-af7f-b85493a46810) of Introduction to Computer Networks and Cybersecurity, which covers the topic of DNS. 
 >
 > **Objectives:**
+> * Determining the DNS server hierarchy
+> * Types of DNS queries
+> * What is the purpose of memory caching
 
+## Week 5
+#### [Lecture - DNS Notes](https://github.com/user-attachments/files/17104813/Notes.5-1_.The.Domain.Name.System.DNS.pdf)
+
+### Labs
+* #### [Lab 05-01 - Small Enterprise](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Lab-05%E2%80%901-%E2%80%90-Small-Enterprise)
+> **Overview:**
+> In this [assignment](https://github.com/user-attachments/assets/fc30c0c7-c798-43a1-b0b1-40c2ab399cd3), I took a quiz based on chapter 2, [sections 2.1.1-2.1.4](https://github.com/user-attachments/assets/e2753dbc-9637-42fa-af7f-b85493a46810) of Introduction to Computer Networks and Cybersecurity, which covers the topic of DNS. 
+>
+> **Objectives:**
+> * Determining the DNS server hierarchy
+> * Types of DNS queries
+> * What is the purpose of memory caching
 
 <!--Back to Top button-->
 <p align="center";>
