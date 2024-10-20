@@ -40,6 +40,14 @@
     * [Week 5:](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#week-5)
         * [Labs:](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#labs-4)
             * [Lab 05‐1 ‐ Small Enterprise](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#lab-05-01---small-enterprise)
+    * [Week 6:](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#week-6)
+        * [Labs:](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#labs-5)
+            * [Lab 06-1 NAT Configuration - Static NAT](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#lab-06-1-nat-configuration---static-nat)
+            * [Lab 06-2 NAT Configuration - PAT](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#lab-06-2-nat-configuration---pat)
+            * [Lab 06-3 NAT Configuration - Champlain Example Lab](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#lab-06-3-nat-configuration---champlain-example-lab)
+    * [Week 7:](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#week-7)
+        * [Labs:](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#labs-6)
+            * [Lab 07‐1 ‐ Class Hardware Lab](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki#lab-071--class-hardware-lab)
 
 # Course Overview
 ### Course Description
@@ -197,6 +205,7 @@ This course examines the basic principles and methodologies for designing local 
 
 * #### [Lab 03-3 - DHCP Server in Packet Tracer](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Lab-03%E2%80%903-%E2%80%90-DHCP-Server-in-Packet-Tracer)
 > **Overview:**
+>
 > In this [lab](https://github.com/user-attachments/assets/64eda94d-3d0d-4598-b797-984cf10b2568), I continued building from [Lab 03-2](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Lab-03%E2%80%902-%E2%80%90-Lab-Prep), this time enabling DHCP and setting up IP helper addresses so that all PCs on the network could receive IP addresses through DHCP.
 >
 > **Objectives:**
@@ -224,9 +233,11 @@ This course examines the basic principles and methodologies for designing local 
 ### Assignments:
 * #### [Assignment 04‐1 ‐ DNS Security Assignment](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Assignment-04%E2%80%901-%E2%80%90-DNS-Security-Assignment)
 > **Overview:**
+>
 > In this [assignment](https://github.com/user-attachments/assets/26b6be2f-51b1-45ca-b154-619ab0ea63e6), I did some research into DNS, answering various questions about it. 
 >
 > **Objectives:**
+>
 > * Know the difference between recursive and iterative DNS
 > * Researching vulnerabilities caused by enabling recursive DNS
 > * Describing how recursions should be set up inside an organization
@@ -236,6 +247,7 @@ This course examines the basic principles and methodologies for designing local 
 
 * #### [Reading Quiz ‐ 2.1.1‐2.1.4 ‐ DNS](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Reading-Quiz-%E2%80%90-2.1.1%E2%80%902.1.4-%E2%80%90-DNS)
 > **Overview:**
+>
 > In this [assignment](https://github.com/user-attachments/assets/fc30c0c7-c798-43a1-b0b1-40c2ab399cd3), I took a quiz based on chapter 2, [sections 2.1.1-2.1.4](https://github.com/user-attachments/assets/e2753dbc-9637-42fa-af7f-b85493a46810) of Introduction to Computer Networks and Cybersecurity, which covers the topic of DNS. 
 >
 > **Objectives:**
@@ -247,14 +259,65 @@ This course examines the basic principles and methodologies for designing local 
 #### [Lecture - DNS Notes](https://github.com/user-attachments/files/17104813/Notes.5-1_.The.Domain.Name.System.DNS.pdf)
 
 ### Labs
-* #### [Lab 05-01 - Small Enterprise](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Lab-05%E2%80%901-%E2%80%90-Small-Enterprise)
+* #### [Lab 05-1 - Small Enterprise](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Lab-05%E2%80%901-%E2%80%90-Small-Enterprise)
 > **Overview:**
-> In this [assignment](https://github.com/user-attachments/assets/fc30c0c7-c798-43a1-b0b1-40c2ab399cd3), I took a quiz based on chapter 2, [sections 2.1.1-2.1.4](https://github.com/user-attachments/assets/e2753dbc-9637-42fa-af7f-b85493a46810) of Introduction to Computer Networks and Cybersecurity, which covers the topic of DNS. 
+>
+> In this [lab](https://github.com/user-attachments/assets/20bd4201-3ce4-4f9e-a776-d3a0af0209bc), we worked in Packet Tracer to build a small enterprise network representing a single distribution zone, setting up DHCP, DNS, and HTTP services.
 >
 > **Objectives:**
-> * Determining the DNS server hierarchy
-> * Types of DNS queries
-> * What is the purpose of memory caching
+> * Setting up auto-backups in Packet Tracer
+> * Configuring edge, distribution, and core switches
+> * Setting up an IP helper
+> * Setting up DNS, DHCP, and HTTP services
+
+## Week 6
+#### [Lecture - Network Address Translation](https://github.com/user-attachments/files/17194618/NET-330-Network.Address.Translation.pdf)
+
+### Labs
+* #### [Lab 06-1 NAT Configuration - Static NAT](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Lab-06%E2%80%901-%E2%80%90-NAT-Configuration-%E2%80%90-Static-NAT)
+> **Overview:**
+>
+> In this [lab](https://github.com/user-attachments/assets/59aaea33-269e-4040-81f3-028c244cbf7e), we worked to set up a simple static NAT configuration within Packet Tracer. The goal was to masquerade the source IP of a web server with a static IP.
+>
+> **Objectives:**
+> * Configuring serial interfaces
+> * Configuring IP routing
+> * Defining the "inside" and "outside" of a NAT interface
+> * Creating a static rule
+
+* #### [Lab 06-2 NAT Configuration - PAT](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Lab-06%E2%80%902-%E2%80%90-NAT-Configuration-%E2%80%90-PAT)
+> **Overview:**
+>
+> In this [lab](https://github.com/user-attachments/assets/add3644f-9fcd-4717-ab35-c7585183e1a5), we worked to set up a basic PAT configuration within Packet Tracer. The goal of this lab was to set up a port address from one outside address to several inside addresses.
+>
+> **Objectives:**
+> * Assigning the gateway of the last address
+> * Defining inside and outside NAT interfaces
+> * Creating address pools
+> * Creating access lists for IP pools
+> * Assigning pool and access rules to an interface
+
+
+* #### [Lab 06-3 NAT Configuration - Champlain Example Lab](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Lab-06%E2%80%903-%E2%80%90-NAT-Configuration-%E2%80%90-Champlain-Example-Lab)
+> **Overview:**
+> In this [lab](https://github.com/user-attachments/assets/f15c445b-0521-4ae9-8107-6c69867256ad), we used Champlain and the CNCS labs as an example for implementing NAT within a Packet Tracer environment. 
+>
+> **Objectives:**
+> * Configuring all endpoints using a provided subnet information table.
+> * Configuring PAT on a border router
+> * Configuring static NAT on a border router
+
+## Week 7
+### Labs
+* #### [Lab 07‐1 ‐ Class Hardware Lab](https://github.com/Isaiah-River/NET-330-01-Network-Design/wiki/Lab-07%E2%80%901-%E2%80%90-Class-Hardware-Lab)
+> **Overview:**
+>
+> In this [lab](https://github.com/user-attachments/assets/d5b87cf9-d6f7-42ef-9cd7-b331fd1a1daf), we worked in groups to set up an edge and distribution switch with the goal of having two PCs on different VLANs connect to a web server.
+>
+> **Objectives:**
+> * Configuring edge and distribution switches
+> * Setting up a gateway of last resort
+> * Configuring VLANs
 
 <!--Back to Top button-->
 <p align="center";>
